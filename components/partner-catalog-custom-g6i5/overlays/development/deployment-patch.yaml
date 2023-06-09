@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: partner-catalog-custom-g6i5
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/burrsitis-tenant/partner-catalog-custom/partner-catalog-custom-g6i5@sha256:51133f6be187be9724eabaf97a3fd4d18725c10b98ef6b7bab04bf1d84a9835a
+        name: my-java-springboot
+        resources: {}
+status: {}
