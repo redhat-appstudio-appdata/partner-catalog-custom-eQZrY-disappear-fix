@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/burrsitis-tenant/partner-catalog-custom/partner-catalog-custom-g6i5@sha256:e2354e85338f7e2896d69ad00ab201221a78d7792e64f63ced00b857b0f9fbf2
+      - image: quay.io/redhat-user-workloads/burrsitis-tenant/partner-catalog-custom/partner-catalog-custom-g6i5@sha256:76bfc889a8c689712e3ae315be139ddefe12ae195d5664ed6f7c649f17c60b57
         name: my-java-springboot
         resources: {}
 status: {}
