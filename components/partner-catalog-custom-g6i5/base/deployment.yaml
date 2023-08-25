@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-custom-g6i5
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/burrsitis-tenant/partner-catalog-custom/partner-catalog-custom-g6i5@sha256:4fb55fff6e12958584734aede3f085c6b1b941a5273ca1d9e700770c0fda8c77
+      - image: quay.io/redhat-user-workloads/burrsitis-tenant/partner-catalog-custom/partner-catalog-custom-g6i5@sha256:47de8cd3eb9b552646757f78bc4bdbbd5c89a4adf722c77c05dfaf59f42b6737
         name: my-java-springboot
         ports:
         - containerPort: 8081
